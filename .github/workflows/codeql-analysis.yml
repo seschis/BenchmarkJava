@@ -46,5 +46,5 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: codeql.sarif
-        path: results/java.sarif
+        path: "/home/runner/work/BenchmarkJava/results/java.sarif"
 
